@@ -1,0 +1,3 @@
+
+[gpg]
+	program = /usr/bin/gpg2

@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles_local: ''
+    ~/.tmux_local.conf: tmux_local.conf
+    ~/.gitconfig_local.conf: gitconfig_local
+    ~/.vimrc_local: vimrc_local
+    ~/.zshrc_local: zshrc_local

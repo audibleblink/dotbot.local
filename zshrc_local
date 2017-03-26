@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/n/bin"
+export PATH="$PATH:$HOME/.fzf/bin:/opt/n/bin"
 
 alias sag='sudo apt-get'
 alias iedit="e ~/.config/i3/config"
